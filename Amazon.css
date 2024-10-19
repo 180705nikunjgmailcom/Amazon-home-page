@@ -1,0 +1,383 @@
+*{
+    margin:0px;
+    font-family: Arial;
+    border: border-box; /*makes the border come inside the pixel count of object*/
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 49px;
+    width: 140px;
+    padding: 2px 6px 0px 6px;
+    margin-top: 6px;
+}
+.logo{
+    background-image: url("proj/logo5.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box 2:  */
+
+.add-first{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 17.5px;
+}
+
+.nav-add{
+    margin: 15px 2px 5px 0px;
+    padding: 0px 9px 0px 9px;
+    height: 50px;
+    width: 70.7px;
+}
+
+.add-sec{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 2px;
+    padding-left: 5px;
+}
+
+.add-icon{
+    display: flex;
+    align-items:center;
+}
+
+/* box  3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:focus-within{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #e6e6e6;
+    padding-left: 5px;
+    border: 0.67px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    padding: 7px 10px 7px 3px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    background-color: #feab68;
+}
+
+/* box 4 */
+.language{
+    display: flex;
+    gap: 3px;
+    padding: 20px 10px 15px 10px;
+}
+.lang{
+    font-size: 14px;
+    font-weight: 700;
+}
+.flag{
+    background-image: url("proj/United.jpeg");
+    background-size: cover;
+    height: 16.5px;
+    width: 22px;
+}
+/* box 5 */
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+span{
+    font-size: 0.7rem;
+}
+
+/* box 6 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 90%;
+    font-size: 0.85rem;
+}
+
+
+
+/* Hero Section */
+
+.hero-sec{
+    background-image: url("proj/hero_images.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color:white;
+    color: black;
+    height: 45px;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 23px;
+}
+.hero-sec a{
+    text-decoration: none;
+    color: #77adb3;
+}
+.hero-sec a:hover{
+    color: orange;
+}
+
+
+/* Shop Section */
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#fff1d3;
+    flex-wrap: wrap;
+}
+.box-content{
+    margin: 1px 1rem 1px 1rem;
+}
+.box{
+    background-color: white;
+    padding: 20px 0px 15px;
+    height:420px;
+    width: 23%;
+    margin-bottom: 2rem;
+}
+.inner-img-div{
+    height:310px;
+    display: block;
+    margin: 1rem 0rem 2rem 1rem;
+    gap: 20px;
+}
+.inner-img-box1{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.box-img{
+    width: 150px;
+    height: 116px;
+    margin-bottom: 5px;
+    background-size: cover;
+}
+.box-content p{
+    color: #77adb3;   
+}
+
+.box-content p:hover{
+    color: orange;
+}
+
+.box-img2{
+    height: 320px;
+    background-size: cover;
+    margin: 1rem 0rem 1rem 0rem;
+}
+/* sign in last div */
+
+.sign-in-div{
+    margin-top: 50px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dddddd;
+    padding: 0px 20px 0px 20px;
+}
+.text-signin{
+    font-size: 13px;
+    height: 16px;
+    margin: 50px 0px 0px 10px;
+}
+.sign-in-button{
+    height: 30px;
+    width: 230px;
+    background-color: #ffd776;
+    color: black;
+    font-size: 13px; 
+    border: 1px solid orange;
+    border-radius: 4px;
+}
+.new-cust{
+    font-size: 11px;
+}
+.new-cust a{
+    color: #77adb3;
+}
+.new-cust a:hover{
+    color: orangered;
+}
+
+/* footer */
+
+/* footer 1 */
+
+.footer-panel1{
+    background-color: #37475a;
+    height:20px;
+    display: flex;
+    margin-top:30px; 
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+    font-weight: 600;
+    color: white;
+    font-size: 13px;
+}
+
+/* footer 2 */
+
+.footer-panel2{
+    background-color: #242f3f;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+.footer-panel2 p{
+    font-weight: 600;
+    font-size: 17px;
+    margin:30px 0px 20px 0px;
+}
+
+/* footer 3 */
+.footer-panel3{
+    background-color: #242f3f;
+    color: white;
+    border-top: 0.25px solid #7d7c90;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.img{
+    background-image: url("proj/logo5.png");
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    margin: 20px 20px 0px 0px;
+}
+.lang{
+    height: 35px;
+    width: 140px;
+    border: 0.5px solid #c3bdbd;
+    border-radius: 4px;
+    color: #c3bdbd;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.lang i{
+    margin: 2px 7px 3px 7px;
+}
+.flag{
+    height: 14px;
+    width: 20px;
+    margin: 0px 10px 0px 10px;
+}
+span{
+    font-size: 13px;
+}
+
+/* footer 4 */
+
+.footer-panel4{
+    background-color: #111a23;
+    height: 100px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding : 30px 0px 10px 0px;
+}
+.pages a:hover{
+    text-decoration: underline;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
